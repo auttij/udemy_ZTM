@@ -1,0 +1,61 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2, p  {
+    color: white;
+    text-align: center;
+}
+
+ul {
+    display: table;
+    float: none;
+    position: relative;
+}
+
+p {
+    color: white;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 80%;
+    font-family: "Times New Roman", Georgia;
+}
+
+li {
+    list-style: none;
+    display: table-cell;
+    cursor: pointer;
+    float: left;
+    width: 65px;
+    height: 45px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+}
+
+a {
+    color:white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ul > li.active {
+    background-color: #3D3DB3;
+}
+
+li:hover {
+    background-color: #3D3DB3;
+}
+
+#widget {
+    display: block;
+    background: #ffaa39;
+    border-bottom: none;
+    margin-bottom: 0;
+}
