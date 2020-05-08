@@ -1,0 +1,13 @@
+.lt {
+    text-decoration: line-through;
+}
+
+li {
+    cursor: pointer;
+    clear: both;
+    float: left;
+}
+
+.delButton {
+    margin-left: 20px;
+}
