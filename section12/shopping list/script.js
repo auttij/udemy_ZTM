@@ -20,7 +20,7 @@ function inputLen() {
 function addDeleteButton(element) {
     var del = document.createElement("button");
     del.classList.add("delButton");
-    del.innerHTML = "delete";
+    del.textContent = "delete";
     element.appendChild(del);
 }
 
