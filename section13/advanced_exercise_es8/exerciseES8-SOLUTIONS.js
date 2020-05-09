@@ -9,7 +9,7 @@ let rabbit = '🐇';
 '     ||<- Start line'
 '       🐢'
 '       🐇'
-
+  
 // when you do:
 console.log(startLine);
 console.log(turtle);
